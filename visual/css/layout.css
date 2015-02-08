@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Neoteric;
+    src: url('Neoteric.ttf');
+}
+
+body {
+background-color: #dfdfde;
+}
+
+#content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dfdfde;
+    color: #014D6A;
+    margin-top: 0;
+
+}
+
+#detailcontent {
+    padding: 20px;
+    border: 1px dashed #014D6A;
+}
+
+#networkcontent {
+    border: 1px dashed #014D6A;
+}
+
+#cloudcontent {
+    border: 1px dashed #014D6A;
+}
+
+#headbar {
+    background-color: #dfdfde;
+    height: 75px;
+}
+
+#logo {
+    width: 77px;
+    height: 1px;
+    background-color: red;
+
+
+}
+
+#menu {
+
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    float: left;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #014D6A;
+
+    text-align: center;
+    margin: 2px;
+
+}
+
+.activeTab {
+    background-color: #fdfdfe;
+}
+
+#menu a {
+    display: block;
+    font-family: Neoteric, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #22627b;
+}
+
+.inner-content {
+    background-color: rgba(253, 253, 254, 0.49);
+    color: black;
+    padding: 10px;
+}
+
+.view {
+    margin: 10px;
+}
+
+#ds-links-content {
+    margin-left: 10px;
+    padding: 15px;
+}
+.ititle {
+    font:20px Neoteric;
+}
+.ptitle {
+    border-top: 1px double black;
+    border-bottom: 1px double black;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: transparent;
+}
+svg .node {
+
+    stroke-width: 1.5px;
+}
+
+svg .link {
+    stroke: #daa520;
+    stroke-opacity: .6;
+}
+
+g .active {
+    color: green;
+}
+
+
+
+#ds-chapter div {
+    font: 10px sans-serif;
+    background-color: steelblue;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    fill: #000;
+}
+
+.axis .tick line {
+    stroke: rgba(0, 0, 0, 0.1);
+}
+
+.area {
+    stroke-width: 1;
+}
+
+.area.outer,
+.legend .outer {
+    fill: rgba(230, 230, 255, 0.51);
+    stroke: rgba(216, 216, 255, 0.8);
+}
+
+.area.inner,
+.legend .inner {
+    fill: rgba(195, 102, 47, 0.53);
+    stroke: rgba(120, 45, 0, 0.80);
+}
+
+.median-line,
+.legend .median-line {
+    fill: none;
+    stroke: #782D00;
+    stroke-width: 3;
+}
+
+.dotmarker {
+    fill: #A83F00;
+}

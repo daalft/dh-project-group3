@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="js/d3.min.js"></script>
+    <script src="js/wordcloud2.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/paragraphe.min.js"></script>
+</head>
+<body>
+
+<div id="content">
+    <div id="headbar">
+        <div id="logo"></div>
+        <div id="menu">
+            <ul>
+                <li id="cloud"><a href="#">WORD CLOUD</a></li>
+                <li id="network"><a href="#">NETWORK</a></li>
+                <li id="detail"><a href="#">DETAILED VIEW</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="cloudcontent">
+        <div class="view">
+            <canvas id="cloudcanvas"></canvas>
+        </div>
+    </div>
+
+    <div id="networkcontent"></div>
+
+    <div id="detailcontent">
+        <div id="ds-view" class="view">
+            <p>
+                <label for="detailselect">Selected entity:</label>
+                <select id="detailselect">
+                    <option>Select entity</option>
+                </select>
+                <button id="selectbutton" type="submit">Submit</button>
+            </p>
+
+        <div id="ds-ptitle" class="ptitle inner-content">
+            <!-- person title -->
+            <p id="ptitle">
+            </p>
+        </div>
+        <div id="ds-graph" class="inner-content">
+            <p class="ititle">Entity graph</p>
+        </div>
+
+        <div id="ds-links" class="inner-content">
+            <p class="ititle">Links</p>
+            <div id="ds-links-content"></div>
+        </div>
+        <div id="ds-evolution" class="inner-content">
+           <p class="ititle">Mean polarity evolution</p>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
